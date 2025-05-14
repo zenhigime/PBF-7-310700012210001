@@ -2,6 +2,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 var vite_config_default = defineConfig({
+  base: "PBF-7-310700012210001", // base url untuk deploy ke github pages
   plugins: [react()],
   server: {
     host: "0.0.0.0"
